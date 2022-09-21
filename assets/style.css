@@ -1,0 +1,186 @@
+/* Universal selector */
+* {
+  box-sizing: border-box;
+  padding: o;
+  margin: 0;
+}
+
+/* Element selectors */
+
+
+header {
+  display: flex;
+  padding: 20px;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  background-color: #6fa2bb;
+  color: #ffffff;
+}
+
+header h1 {
+  display: inline-block;
+  font-size: 48px;
+  flex-wrap: wrap;
+}
+
+/* sets the color Header Horiseon to differ */
+.seo {
+  color: #d9dcd6;
+  font-style: italic;
+}
+
+/* Element selector */
+header nav {
+  flex-wrap: wrap;
+  justify-content: flex-end;
+  padding-top: 15px;
+  margin-right: 20px;
+  float: right;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: 20px;
+}
+
+/* List items in navigation bar */
+header nav ul {
+  list-style-type: none;
+}
+
+/* Sets display to inline block */
+header nav ul li {
+  display: inline-block;
+  margin-left: 25px;
+}
+
+/* Identifies the achor tab in nav header */
+a {
+  color: #ffffff;
+  text-decoration: none;
+}
+
+
+/* Middle column */
+
+main {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+aside {
+  flex: 1;
+  flex-wrap: wrap;
+  background-color: #6e818b;
+  background-size: contain;
+  padding: 20px;
+  text-align: center;
+}
+
+aside section {
+  flex: 1 1 auto;
+  margin-right: 10px;
+  margin-left: 10px;
+  padding: 10px;
+  width: 400px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  background-color: #84a8bd;
+  display: block;
+  margin: 10px auto;
+  margin-bottom: 5px;
+  color: #ffffff;
+  margin-top: 1%;
+}
+
+aside section h2 {
+  margin-bottom: 10px;
+  text-align: center;
+  font-size: larger;
+  padding: 10px;
+  background: #6fa2bb;
+  border: solid #fff;
+  border-width: 4px;
+  color: #fff;
+  float: top;
+}
+
+.space {
+  padding: 8px;
+}
+
+.column {
+  flex: 1;
+  background-color: #fff;
+  padding: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+div h2 {
+  flex: 0 0 600px;
+  padding: 10px;
+  text-align: center;
+  color: #fff;
+  font-size: larger;
+  border: solid rgb(127, 211, 206);
+  border-width: 4px;
+  background-color: #6e818b;
+  width: 100%;
+  min-width: 300px;
+  column-gap: 10px;
+
+}
+
+
+.card {
+  flex: 0 0 600px;
+  padding: 50px;
+  text-align: center;
+  border: solid white;
+  border-width: 8px;
+  background-image: url(./Images/plants.jpg);
+  background-size: cover;
+  width: 100%;
+  min-width: 300px;
+  column-gap: 10px;
+}
+
+.card header {
+  padding: 50px;
+  background: #6fa2bb;
+  border: solid white;
+  border-width: 4px;
+  width: 80%;
+  color: #fff;
+  float: left;
+}
+
+footer {
+  padding: 20px;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  background-color: #6fa2bb;
+  color: #ffffff;
+}
+
+footer h3 {
+  display: inline-block;
+  font-size: 16x;
+}
+
+
+/* The user's cursor is positioned over the element */
+div header:hover {
+  background-color: rgb(127, 211, 206);
+  color: #fff;
+}
+
+
+
+TODO: Specifies how flex items are placed in the flex container,
+by setting the direction of the flex container’s main axis. The direction would stack on top of eachother in a column. */ @media screen and (max-width: 768px) {
+  @media screen and (max-width: 768px) {
+
+    header,
+    header nav main,
+    nav {
+      flex-direction: column;
+    }
+  }
