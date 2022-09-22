@@ -12,7 +12,7 @@ header {
   display: flex;
   padding: 20px;
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-  background-color: #6fa2bb;
+  background-color: #84a8bd;
   color: #ffffff;
 }
 
@@ -33,7 +33,7 @@ header nav {
   flex-wrap: wrap;
   justify-content: flex-end;
   padding-top: 15px;
-  margin-right: 20px;
+
   float: right;
   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
   font-size: 20px;
@@ -79,7 +79,7 @@ aside section {
   margin-right: 10px;
   margin-left: 10px;
   padding: 10px;
-  width: 400px;
+  width: 600px;
   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
   background-color: #84a8bd;
   display: block;
@@ -94,11 +94,10 @@ aside section h2 {
   text-align: center;
   font-size: larger;
   padding: 10px;
-  background: #6fa2bb;
-  border: solid #fff;
+  background: #6e818b;
+  border: solid rgb(127, 211, 206);
   border-width: 4px;
   color: #fff;
-  float: top;
 }
 
 .space {
@@ -115,8 +114,7 @@ aside section h2 {
 }
 
 div h2 {
-  flex: 0 0 600px;
-  padding: 10px;
+  flex: 0 0 400px;
   text-align: center;
   color: #fff;
   font-size: larger;
@@ -124,14 +122,13 @@ div h2 {
   border-width: 4px;
   background-color: #6e818b;
   width: 100%;
-  min-width: 300px;
+  min-width: 400px;
   column-gap: 10px;
 
 }
 
-
-.card {
-  flex: 0 0 600px;
+.top-card {
+  flex: 1;
   padding: 50px;
   text-align: center;
   border: solid white;
@@ -139,24 +136,46 @@ div h2 {
   background-image: url(./Images/plants.jpg);
   background-size: cover;
   width: 100%;
-  min-width: 300px;
+  min-width: 400px;
+  border-radius: 25px
+}
+
+.top-card header {
+  background: #84a8bd;
+  border: solid white;
+  border-width: 4px;
+  color: #fff;
+  text-align: center;
+  border-radius: 25px
+}
+
+.card {
+  flex: 0 0 250px;
+  padding: 50px;
+  text-align: center;
+  border: solid white;
+  border-width: 8px;
+  background-image: url(./Images/plants.jpg);
+  background-size: cover;
+  width: 100%;
+  min-width: 200px;
   column-gap: 10px;
+  border-radius: 25px
 }
 
 .card header {
-  padding: 50px;
-  background: #6fa2bb;
+  background: #84a8bd;
   border: solid white;
   border-width: 4px;
-  width: 80%;
   color: #fff;
-  float: left;
+  text-align: center;
+  border-radius: 25px
 }
 
 footer {
   padding: 20px;
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-  background-color: #6fa2bb;
+  background-color: #84a8bd;
   color: #ffffff;
 }
 
@@ -172,15 +191,19 @@ div header:hover {
   color: #fff;
 }
 
+div header:active {
+  background-color: rgb(127, 211, 206);
+  color: #fff;
+}
+
+/*Specifies how flex items are placed in the flex container, by setting the direction of the flex container’s main axis. The direction would stack on top of eachother in a column. */
 
 
-TODO: Specifies how flex items are placed in the flex container,
-by setting the direction of the flex container’s main axis. The direction would stack on top of eachother in a column. */ @media screen and (max-width: 768px) {
-  @media screen and (max-width: 768px) {
+*/ @media screen and (max-width: 768px) {
 
-    header,
-    header nav main,
-    nav {
-      flex-direction: column;
-    }
+  header,
+  main,
+  nav {
+    flex-direction: column;
   }
+}

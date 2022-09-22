@@ -2,8 +2,11 @@
 
 ## Description
 
-Add description here
-* Add bullet to support usability
+This Portfolio is to provide information about myself and showcase my skills as a Full Stack web developer.
+* An About Me section will provide some personal information, fun facts and my professional career journey. 
+* A Contact section will provide an email, phone and git hub account when my repository projcts can be viewed. 
+* A My Work section will link to all my full stack web development projects to showcase my skills. 
+* A Resume section will provide a link to download my resume. 
 
 
 ## Visuals
@@ -43,12 +46,11 @@ For help with this webpage please contact
 |Lynn Sadler| lynnadelesadler@yahoo.com |
 
 ## Roadmap
-Check back to this page frequently as we continue to make updates and enhacements!
+Check back to this page frequently as I continue to make updates to display new work I have released and enhacements on the coding and display of this Porfolio!
 
 ## Authors and acknowledgment
 
-
-Sourcecode credit to be given to Lynn Sadler.
+Sourcecode credit to be given to Lynn Sadler. Acknowledgement to Uconn Full Stack Web Developer bootcamp for suppoting me on my developer journey!
 
 
 
