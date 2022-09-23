@@ -41,7 +41,7 @@ When viewing the deployed Lynn Sadler Portfolio webite on a cell phone the Navig
 
 *  Clicking on Contact in the navigation will link you to that section on webpage...
 
-<img src="./assets/Images/Contact Section.jpeg">
+<img src="./assets/Images/contact section.jpeg">
 
 *  Clicking on Resume in the navigation will link you to that section on webpage...
 
