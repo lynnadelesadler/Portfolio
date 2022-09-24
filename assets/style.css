@@ -5,12 +5,6 @@
   margin: 0;
 }
 
-/* Element selectors */
-
-body {
-  min-width: fit-content;
-}
-
 header {
   display: flex;
   justify-content: space-between;
@@ -27,13 +21,13 @@ header h1 {
   flex-wrap: wrap;
 }
 
-/* sets the color Header Horiseon to differ */
+/* sets the color Header Sadler to different color */
 .seo {
   color: #d9dcd6;
   font-style: italic;
 }
 
-/* Element selector */
+/* Element selector for Header navigation bar */
 header div nav {
   flex-wrap: wrap;
   justify-content: flex-end;
@@ -60,7 +54,7 @@ a {
 }
 
 
-/* Middle column */
+/* Main Body */
 
 main {
   display: flex;
@@ -68,6 +62,13 @@ main {
   justify-content: space-between;
 }
 
+/* Main Body */
+
+body {
+  min-width: fit-content;
+}
+
+/* Left side section Element selectors */
 aside {
   flex: 1;
   flex-wrap: wrap;
@@ -104,10 +105,20 @@ aside section h2 {
   color: #fff;
 }
 
+/* Creates space between paragraphs and UL */
 .space {
   padding: 8px;
   list-style: none;
 }
+/* Creates space and italics for the Moto in About Me Section */
+.space-italic {
+  padding: 8px;
+  list-style: none;
+  font-style:italic;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+/* Main section - My Work */
 
 .column {
   flex: 1;
@@ -180,6 +191,8 @@ div h2 {
   border-radius: 25px
 }
 
+/* Footer */
+
 footer {
   display: flex;
   padding: 20px;
@@ -194,7 +207,7 @@ footer h3 {
 }
 
 
-/* The user's cursor is positioned over the element */
+/* The user's cursor is positioned over the my work element */
 div header:hover {
   background-color: rgb(127, 211, 206);
   color: #fff;
@@ -206,8 +219,6 @@ div header:active {
 }
 
 /*Specifies how flex items are placed in the flex container, by setting the direction of the flex container’s main axis. The direction would stack on top of eachother in a column. */
-
-
 
 @media screen and (max-width: 768px) {
   header,

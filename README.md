@@ -10,6 +10,7 @@ This Portfolio is to provide information about myself and showcase my skills as 
 
 
 ## Visuals
+<!-- Provide the visuals for full display and phone display -->
 This is how the deployed Lynn Sadler Portfolio website will look
 
 <img src="./assets/Images/full page dislay.jpeg">
