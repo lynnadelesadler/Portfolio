@@ -3,6 +3,232 @@
   box-sizing: border-box;
   padding: o;
   margin: 0;
+}/* Universal selector */
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@100;300&display=swap'); 
+* {
+  box-sizing: border-box;
+  padding: o;
+  margin: 0;
+  font-family:'Raleway', sans-serif;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+  /* font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; */
+  background-color: #84a8bd;
+  color: #ffffff;
+  text-align: center;
+}
+
+
+header h1 {
+  display: inline-block;
+  font-size: 48px;
+  flex-wrap: wrap;
+  font-family:'Cormorant+Garamon';
+}
+
+/* sets the color Header Sadler to different color */
+.seo {
+  color: #d9dcd6;
+  font-style: italic;
+}
+
+/* Element selector for Header navigation bar */
+header div {
+  flex-wrap: wrap;
+  justify-content: first baseline;
+  padding-top: 15px;
+  font-size: 35px;
+}
+
+
+
+/* Identifies the achor tab in nav header */
+a {
+  color: #ffffff;
+  text-decoration: none;
+}
+
+
+/* Main Body */
+
+main {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+/* Main Body */
+
+body {
+  min-width: fit-content;
+}
+
+/* Left side section Element selectors */
+aside {
+  flex: 1;
+  flex-wrap: wrap;
+  background-color: #6e818b;
+  background-size: contain;
+  padding: 20px;
+  text-align: center;
+}
+
+aside section {
+  flex: 1 1 auto;
+  margin-right: 10px;
+  margin-left: 10px;
+  padding: 10px;
+  width: 600px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  background-color: #84a8bd;
+  display: block;
+  margin: 10px auto;
+  margin-bottom: 5px;
+  color: #ffffff;
+  margin-top: 1%;
+
+}
+
+aside section h2 {
+  margin-bottom: 10px;
+  text-align: center;
+  font-size: larger;
+  padding: 10px;
+  background: #6e818b;
+  border: solid rgb(127, 211, 206);
+  border-width: 4px;
+  color: #fff;
+}
+
+/* Creates space between paragraphs and UL */
+.space {
+  padding: 8px;
+  list-style: none;
+}
+/* Creates space and italics for the Moto in About Me Section */
+.space-italic {
+  padding: 8px;
+  list-style: none;
+  font-style:italic;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+/* Main section - My Work */
+
+
+#My-Work {
+    flex: 0 0 600px;
+    text-align: center;
+    color: #fff;
+    font-size: larger;
+    border: solid rgb(127, 211, 206);
+    border-width: 4px;
+    background-color: #6e818b; 
+    width: 600px;
+  
+    height: 40px;
+  
+  }
+
+
+.column {
+  flex: 1;
+  background-color: #fff;
+  padding: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  text-align: center;
+}
+
+div h2 {
+  flex: 0 0 600px;
+  text-align: center;
+  color: #fff;
+  font-size: larger;
+  border: solid rgb(127, 211, 206);
+  border-width: 4px;
+  background-color: #6e818b;
+  width: 600px;
+  column-gap: 10px;
+
+}
+
+.card {
+  flex: 1;
+  padding: 20px;
+  text-align: center;
+  border: solid white;
+  border-width: 8px;
+  background-image: url(./Images/plants.jpg);
+  background-size: cover;
+  width: 100%;
+  min-width: 100%;
+  border-radius: 25px
+}
+
+.card header {
+  background: #84a8bd;
+  border: solid white;
+  border-width: 4px;
+  color: #fff;
+  text-align: center;
+  border-radius: 25px;
+  align-items: center;
+  justify-content: center;
+
+}
+
+
+
+/* Footer */
+
+footer {
+  display: flex;
+  padding: 20px;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  background-color: #84a8bd;
+  color: #ffffff;
+}
+
+footer h3 {
+  display: inline-block;
+  font-size: 16x;
+}
+
+
+/* The user's cursor is positioned over the my work element */
+div header:hover {
+  background-color: rgb(127, 211, 206);
+  color: #fff;
+}
+
+div header:active {
+  background-color: rgb(127, 211, 206);
+  color: #fff;
+}
+
+/*Specifies how flex items are placed in the flex container, by setting the direction of the flex container’s main axis. The direction would stack on top of eachother in a column. */
+
+@media screen and (max-width: 768px) {
+  header
+  {
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  main {
+    max-width: 1200px;
+  }
+
+  header div  {
+    flex-direction: column;
+    justify-content: center;
+  }
 }
 
 header {

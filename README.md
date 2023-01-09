@@ -4,26 +4,37 @@
 
 This Portfolio is to provide information about myself and showcase my skills as a Full Stack web developer.
 * An About Me section will provide some personal information, fun facts and my professional career journey. 
-* A Contact section will provide an email, phone and git hub account when my repository projcts can be viewed. 
+* A Contact section will provide an email, phone and git hub account when my repository projects can be viewed. 
 * A My Work section will link to all my full stack web development projects to showcase my skills. 
 * A Resume section will provide a link to download my resume. 
 
+## Access
 
+The URL of the GitHub repository ...
+
+https://github.com/lynnadelesadler/Portfolio
+
+The URL of the Deployed Github Page  ...
+
+https://lynnadelesadler.github.io/Portfolio/
 ## Visuals
 <!-- Provide the visuals for full display and phone display -->
 This is how the deployed Lynn Sadler Portfolio website will look
 
-<img src="./assets/Images/full page dislay.jpeg">
 
-When viewing the deployed Lynn Sadler Portfolio webite on a cell phone the Navigtor bar will stack under the the Lynn Sadler Header. The My Work section will stack under the Resume section.  
+<img src="./assets/images/new-homepage.jpg">
 
-<img src="./assets/Images/Iphone display.png">
+The Portfolio contains 2 sections. 
+
+When viewing the deployed Lynn Sadler Portfolio website on a cell phone the website is responsive. The Navigation bar will stack under the the Lynn Sadler Header. The section including tabs for About Me, Resume and Contact will stack under the the nav bar. The My Work section will stack under the Resume section.  
+
+<img src="./assets/images/cell-phone.jpg">
 
 
  
 ## Usage
 <!-- This text is Italics -->
-*Utalize the Lynn Sadler Portfolio webpage through it's navigation bar located in the header.*
+*Utilize the Lynn Sadler Portfolio webpage through it's nav bar.*
 
 <img src="./assets/Images/Header.png">
 
@@ -57,11 +68,11 @@ For help with this webpage please contact
 |Lynn Sadler| lynnadelesadler@yahoo.com |
 
 ## Roadmap
-Check back to this page frequently as I continue to make updates to display new work I have released and enhacements on the coding and display of this Porfolio!
+Check back to this page frequently as I continue to make updates to display new work I have released and enhancements on the coding and display of this Potrfolio!
 
 ## Authors and acknowledgment
 
-Sourcecode credit to be given to Lynn Sadler. Acknowledgement to Uconn Full Stack Web Developer bootcamp for suppoting me on my developer journey!
+Source-code credit to be given to Lynn Sadler. Acknowledgement to Uconn Full Stack Web Developer bootcamp for supporting me on my developer journey!
 
 
 
