@@ -1,9 +1,4 @@
 /* Universal selector */
-* {
-  box-sizing: border-box;
-  padding: o;
-  margin: 0;
-}/* Universal selector */
 @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@100;300&display=swap'); 
 * {
   box-sizing: border-box;

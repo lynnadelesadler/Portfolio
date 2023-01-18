@@ -41,7 +41,7 @@ When viewing the deployed Lynn Sadler Portfolio website on a cell phone the webs
 <!-- Provide the navigation links in list format -->
 * Clicking on About Me in the navigation will link you to that section on webpage...
 
-<img src="./assets/Images/About Me Section.png">
+<img src="./assets/Images/About Me Section.jpg">
  
 
 *  Clicking on My Work in the navigation will link you to that section on webpage...
