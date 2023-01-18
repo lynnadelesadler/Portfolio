@@ -3,9 +3,7 @@ var resumeLinkEl = $('#tab-resume');
 var contactLinkEl = $('#tab-contact');
 
 
-
-
-// Click event on Resume Nav Link 
+// Click event on About Me Nav Link 
 homeLinkEl.on('click', function () {
     $('#home-tab').attr('aria-selected', true);
     $('#resume-tab').attr('class', "nav-link");
@@ -28,7 +26,7 @@ resumeLinkEl.on('click', function () {
     $('#contact').attr('class', "tab-pane fade");
   });
   
-  // Click event on Resume Nav Link 
+  // Click event on contact Nav Link 
   contactLinkEl.on('click', function () {
     $('#contact-tab').attr('aria-selected', true);
     $('#resume-tab').attr('class', "nav-link");
@@ -38,15 +36,6 @@ resumeLinkEl.on('click', function () {
     $('#home').attr('class', "tab-pane fade");
     $('#contact').attr('class', "tab-pane fade show active");
   });
-  
-  
-
-  
-// Click event causes refresh
-contactLinkEl.on('click', function () {
-    $('#contact-tab').attr('aria-selected', true);
-  });
-  
   
   
   
